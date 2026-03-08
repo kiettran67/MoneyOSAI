@@ -1,0 +1,65 @@
+moneyos-ai
+│
+├─ app
+│   ├─ layout.tsx
+│   ├─ page.tsx
+│   │
+│   ├─ overview
+│   │   └─ page.tsx
+│   │
+│   ├─ transactions
+│   │   ├─ page.tsx
+│   │   └─ new
+│   │       └─ page.tsx
+│   │
+│   ├─ upload
+│   │   └─ page.tsx
+│   │
+│   ├─ debts
+│   │   └─ page.tsx
+│   │
+│   ├─ ai
+│   │   └─ page.tsx
+│
+├─ components
+│   ├─ dashboard
+│   │   ├─ kpi-card.tsx
+│   │   ├─ spending-chart.tsx
+│   │   └─ debt-chart.tsx
+│   │
+│   ├─ transactions
+│   │   ├─ transaction-table.tsx
+│   │   └─ transaction-form.tsx
+│   │
+│   ├─ upload
+│   │   └─ upload-statement.tsx
+│   │
+│   ├─ layout
+│   │   ├─ sidebar.tsx
+│   │   └─ topbar.tsx
+│
+├─ lib
+│   ├─ supabase
+│   │   └─ client.ts
+│   │
+│   ├─ parser
+│   │   └─ statement-parser.ts
+│   │
+│   ├─ reconciliation
+│   │   └─ match-engine.ts
+│   │
+│   ├─ categorization
+│   │   └─ rule-engine.ts
+│   │
+│   └─ ai
+│       └─ ai-engine.ts
+│
+├─ types
+│   └─ finance.ts
+│
+├─ public
+│
+├─ package.json
+├─ tailwind.config.js
+├─ next.config.js
+└─ README.md
